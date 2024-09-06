@@ -132,13 +132,12 @@ const Dashboard = ({ user }) => {
       </div>
 
       <div className="fixed bottom-5 right-5">
-        <button
+        <a
           className="bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          href="https://codetracker-gpt.netlify.app/"
         >
-          <a href="https://codetracker-gpt.netlify.app/" >
-            Ask AI
-          </a>
-        </button>
+          <a href="https://codetracker-gpt.netlify.app/">Ask AI</a>
+        </a>
       </div>
     </>
   );
